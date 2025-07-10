@@ -5,7 +5,7 @@ shared:
 jobs:
     # Build and publish Docker image
     docker-publish:
-        requires: [~pr, publish]
+        requires: [~pr, ~commit]
         template: sd/dind@latest
         environment:
             DOCKER_MULTI_PLATFORM_BUILDS_ENABLED: 1
