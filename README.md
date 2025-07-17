@@ -29,8 +29,8 @@ $ docker buildx build -t <org>/<name>:<tag> --push .
 
 ## License
 
-This repository is licensed under the same Apache License 2.0 terms as moby/buildkit.  
-Please see the [LICENSE](./LICENSE) file for the full text.
+Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
+
 
 [build-image]: https://cd.screwdriver.cd/pipelines/xxxx/badge
 [build-url]: https://cd.screwdriver.cd/pipelines/xxxx
