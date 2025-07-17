@@ -1,0 +1,18 @@
+# debug enables additional debug logging
+debug = false
+# trace enables additional trace logging (very verbose, with potential performance impacts)
+trace = false
+  
+[log]
+  # log formatter: json or text
+  format = "text"
+  
+[grpc]
+  [grpc.tls]
+    cert = "/certs/buildkit/server/cert.pem"
+    key = "/certs/buildkit/server/key.pem"
+    ca = "/certs/buildkit/server/ca.pem"
+  
+[worker.oci]
+  # limit the number of parallel build steps that can run at the same time
+  max-parallelism = 4

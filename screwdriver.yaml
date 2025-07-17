@@ -1,0 +1,12 @@
+shared:
+    environment:
+        DOCKER_REPO: screwdrivercd/buildkit-rootless
+
+jobs:
+    # Build and publish Docker image
+    docker-publish:
+        requires: [~pr, ~commit]
+        template: sd/dind@latest
+        environment:
+            DOCKER_MULTI_PLATFORM_BUILDS_ENABLED: 1
+            DOCKER_BUILDKIT: 1
