@@ -29,11 +29,11 @@ $ docker buildx build -t <org>/<name>:<tag> --push .
 
 ## License
 
-Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
+Code licensed under the BSD 3-Clause license. See [LICENSE](./LICENSE) file for terms.
 
 
-[build-image]: https://cd.screwdriver.cd/pipelines/xxxx/badge
-[build-url]: https://cd.screwdriver.cd/pipelines/xxxx
+[build-image]: https://cd.screwdriver.cd/pipelines/15783/badge
+[build-url]: https://cd.screwdriver.cd/pipelines/15783
 [version-image]: https://img.shields.io/github/tag/screwdriver-cd/buildkit-rootless.svg
 [version-url]: https://github.com/screwdriver-cd/buildkit-rootless/releases
 [issues-image]: https://img.shields.io/github/issues/screwdriver-cd/screwdriver.svg
